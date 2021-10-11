@@ -1,5 +1,6 @@
 import Header from '../header/header';
 import Main from '../main/main';
+import Article from '../article/article';
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div className={'app'}>
       <Header />
       <Main />
+      <Article />
 
     </div>
   );
