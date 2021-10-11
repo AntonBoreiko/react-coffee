@@ -1,6 +1,7 @@
 import Header from '../header/header';
 import Main from '../main/main';
 import Article from '../article/article';
+import Footer from '../footer/footer';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Main />
       <Article />
+      <Footer />
 
     </div>
   );
