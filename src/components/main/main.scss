@@ -1,0 +1,31 @@
+.main {
+   min-height: 520px;
+   display: flex;
+   align-items: center;
+   .main_block {
+      max-width: 589px;
+      text-align: center;
+      margin: 0px auto;
+      h3 {
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 35px;
+         color: #000000;
+         margin-bottom: 20px;
+      }
+
+      .main_block_image {
+         img {
+            margin: 0px 20px;
+         }
+         margin-bottom: 35px;
+      }
+      p {
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 20px;
+         text-align: center;
+         color: #000000;
+      }
+   }
+}

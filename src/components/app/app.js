@@ -1,10 +1,19 @@
+import Header from '../header/header';
+import Main from '../main/main';
 
-import './app.css';
+
+
+
+
+import './app.scss';
+
 
 function App() {
   return (
-    <div className="app">
-        <h1>Hello React</h1>
+    <div className={'app'}>
+      <Header />
+      <Main />
+
     </div>
   );
 }
